@@ -1,6 +1,7 @@
 Part 1 – components
 !! Variables !!
 	→ For the AI section, I make new variables just to make sure everything is precise and nothing is mucky with the pvp section – that is why there are slashes in between as they have the same base function
+	
 Boolean gameplay / AIGame → adds the crucial gameplay loop to give the player the ability to replay from the main menu and the ability to quit the game at the end of a game
 int gamemode → enables the switch case from the user’s input to fill this variable. Connects with the 3 switch case options [pvp, pvAI, quit]
 int squaresFilledCounter → initializes the variable at 0 and serves the main purpose of counting how many times the player(s) place a symbol to, if needed, call a tie/draw. 
